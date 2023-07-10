@@ -1,0 +1,39 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.0",
+    "@openzeppelin/contracts": "^4.9.2",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@typechain/hardhat": "^8.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^10.0.1",
+    "@zetachain/addresses": "^0.0.11",
+    "@zetachain/addresses-tools": "^0.0.8",
+    "@zetachain/faucet-cli": "^2.0.1",
+    "@zetachain/interfaces": "^0.0.1",
+    "@zetachain/protocol-contracts": "^0.0.7",
+    "chai": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "envfile": "^6.18.0",
+    "hardhat": "^2.16.1",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.2.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
